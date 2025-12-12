@@ -1,4 +1,4 @@
-public class Main {
+public class SearchInString {
 	public static void main(String ... args) {
 		String name = "prashant";
 		System.out.println(searchString(name, 's')); // true

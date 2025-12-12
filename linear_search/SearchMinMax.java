@@ -1,4 +1,4 @@
-public class Main {
+public class SearchMinMax {
 	public static void main(String ... args) {
 		int[] arr = new int[] {4, 5, 190, -67, 23};
 		System.out.println("maximum number: " + searchMaximumNumber(arr));

@@ -1,4 +1,4 @@
-public class Main {
+public class LinearSearch {
 	public static void main(String ... args) {
 		int[] arr = new int[] {4, 1, -42, 81, 65, 73};
 		System.out.println("index: " + linearSearch(arr, 65));

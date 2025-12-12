@@ -1,4 +1,4 @@
-public class Main {
+public class EvenNumOfDigitsLC {
 	public static void main(String ... args) {
 		int[] arr = new int[] {0, -12, 234, 2, 5, 7896};
 		System.out.println(findNumbers(arr));

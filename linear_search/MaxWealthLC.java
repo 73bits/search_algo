@@ -1,4 +1,4 @@
-public class Main {
+public class MaxWealthLC {
 	public static void main(String ... args) {
 		int[][] accounts = new int[][] {
 			{2, 3, 4},

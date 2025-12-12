@@ -1,6 +1,6 @@
 import java.util.Arrays;
 
-public class Main {
+public class SearchTwoDArray {
 	public static void main(String ... args) {
 		int[][] arr = new int[][] {
 			{1, 78, -120},
