@@ -4,7 +4,7 @@
    target = 'f', return 'j'
    target = 'x', return 'c'
 */
-public class LCNextGreatest {
+public class NextGreatestLC {
 	public static void main(String ... args) {
 		char[] letters = new char[] { 'c', 'f', 'j', 'm', 'w', 'x' };
 		char target = 'j';
