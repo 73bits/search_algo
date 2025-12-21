@@ -21,4 +21,21 @@ public class MountainArrayLC {
 
 	private static int searchElement(int arr[], int target) {
 	}
+
+	private static int orderAgnosticBS(int arr[], int target, int start, int end) {
+		boolean isAscending = arr[start] < arr[end];
+		while (start <= end) {
+			int mid = (start + end) / 2;
+			if (arr[mid] == target) return mid;
+			if (isAscending) {
+				if (arr[mid] > target) end = mid - 1;
+				else start = mid + 1;
+			} else {
+				if (arr[mid] < target) end = mid - 1;
+				else start = mid + 1;
+			}
+		}
+		return -1;
+	}
+
 }
