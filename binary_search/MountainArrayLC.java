@@ -20,6 +20,10 @@ public class MountainArrayLC {
 	}
 
 	private static int searchElement(int arr[], int target) {
+		int peakIndex = searchPeakIndex(arr);
+		int firstTry = orderAgnosticBS(arr, target, 0, peakIndex);
+		if (firstTry != -1) return firstTry;
+		return orderAgnosticBS(arr, target, peakIndex + 1, arr.length - 1);
 	}
 
 	private static int orderAgnosticBS(int arr[], int target, int start, int end) {
