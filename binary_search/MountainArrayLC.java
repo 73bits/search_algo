@@ -7,6 +7,10 @@ public class MountainArrayLC {
 	public static void main(String ... args) {
 		System.out.println(searchPeakIndex(new int[] { 0, 1, 0 })); // 1
 		System.out.println(searchPeakIndex(new int[] { 0, 1, 3, 5, 8, 6, 4, 2 })); // 4
+
+		System.out.println(searchElement(new int[] { 0, 1, 0 }, 0)); // 0
+		System.out.println(searchElement(new int[] { 0, 1, 3, 5, 8, 6, 4, 2 }, 2)); // 7
+		System.out.println(searchElement(new int[] { 0, 1, 3, 5, 8, 6, 4, 2 }, 7)); // -1
 	}
 
 	private static int searchPeakIndex(int[] arr) {
